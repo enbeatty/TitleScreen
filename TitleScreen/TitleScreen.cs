@@ -81,7 +81,7 @@ namespace TitleScreen
             _spriteBatch.Draw(_tree, new Vector2(400, 0), null, Color.White, 0f, new Vector2(0, 0), .33f, SpriteEffects.None, 0);
             _spriteBatch.Draw(_rock, new Vector2(570, 370), null, Color.White, 0f, new Vector2(0, 0), .33f, SpriteEffects.None, 0);
             _spriteBatch.DrawString(_pixelUltima, "Welcome", new Vector2(315, 100), Color.Black);
-            _spriteBatch.DrawString(_pixelUltima, "Press ESC to exit", new Vector2(250, 200), Color.Black);
+            _spriteBatch.DrawString(_pixelUltima, "Press ESC to exit", new Vector2(250, 150), Color.Black);
             _spriteBatch.End();
 
             base.Draw(gameTime);
