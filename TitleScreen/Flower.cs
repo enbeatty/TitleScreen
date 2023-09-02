@@ -21,8 +21,6 @@ namespace TitleScreen
     {
         private Texture2D texture;
 
-        private double directionTimer;
-
         private double animationTimer;
 
         private short animationFrame = 0;
@@ -38,7 +36,7 @@ namespace TitleScreen
         public Vector2 Position;
 
         /// <summary>
-        /// Loads the bat sprite texture
+        /// Loads the flower sprite texture
         /// </summary>
         /// <param name="content">The ContentManager to load with</param>
         public void LoadContent(ContentManager content)
@@ -55,7 +53,7 @@ namespace TitleScreen
         }
 
         /// <summary>
-        /// Draws the animated bat sprite
+        /// Draws the animated flower sprite
         /// </summary>
         /// <param name="gameTime">The game time</param>
         /// <param name="spriteBatch">The SpriteBatch to draw with</param>

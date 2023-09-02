@@ -37,7 +37,6 @@ namespace TitleScreen
             _rock = Content.Load<Texture2D>("rock");
             _tree = Content.Load<Texture2D>("tree");
             _cloud = new Cloud() { Position = new Vector2(750, 10) };
-            //_cloud = new Cloud();
 
             base.Initialize();
         }

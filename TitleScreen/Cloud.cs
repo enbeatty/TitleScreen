@@ -52,7 +52,7 @@ namespace TitleScreen
         }
 
         /// <summary>
-        /// Draws the animated bat sprite
+        /// Draws the animated cloud sprite
         /// </summary>
         /// <param name="gameTime">The game time</param>
         /// <param name="spriteBatch">The SpriteBatch to draw with</param>
